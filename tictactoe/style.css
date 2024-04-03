@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(2.jpg);
+}
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: lightcyan;
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+}
+.game--title {
+    padding-top: 20px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 150px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 50px;
+    font-size: 20px;
+}
+button {
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+button:hover {
+    transition: 0.25s;
+    background-color: #c1a2fe;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(2.jpg);
+}
+
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 500px; /* Increased size */
+    margin: auto;
+    background-color: rgba(183, 168, 168, 0.5); /* Transparent background */
+    margin-top: 75px;
+    box-shadow: 0px 10px 36px 16px rgba(195, 202, 169, 0.798);
+    padding: 20px; /* Added padding */
+}
+
+.game--title {
+    padding-top: 20px;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px; /* Increased size */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cell {
+    font-family: "Poppins", sans-serif;
+    width: 100px; /* Increased size */
+    height: 100px; /* Increased size */
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px; /* Center content vertically */
+    font-size: 40px; /* Increased font size */
+}
+
+button {
+    margin-bottom: 20px;
+    height: 40px; /* Increased size */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: #c1a2fe;
+}
+
+/* Existing styles remain the same */
+
+/* New styles for the scores table */
+.game--main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.game--scores {
+    width: 150px;
+    padding: 290px;
+    margin-top: -700px; /* Increase the top margin */
+    color: aliceblue;
+    
+}
+
+.game--scores h2 {
+    margin-bottom: 2px;
+}
+
+.game--scores table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.game--scores table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.game--scores table td:first-child {
+    font-weight: bold;
+}
